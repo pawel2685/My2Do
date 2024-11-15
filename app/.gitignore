@@ -1,0 +1,18 @@
+/build
+# Kotlin
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+local.properties
+.DS_Store
+*.apk
+*.aar
+*.log
+*.hprof
+
+# Android
+*.keystore
+app/proguard-rules.pro
