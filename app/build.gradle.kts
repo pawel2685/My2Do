@@ -69,6 +69,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
+    // Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.8.4")
+
     // Room with KSP
     implementation("androidx.room:room-runtime:2.5.2")
     implementation("androidx.room:room-ktx:2.5.2")
