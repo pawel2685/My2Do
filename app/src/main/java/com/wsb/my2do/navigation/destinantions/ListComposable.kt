@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.wsb.my2do.util.Constants.LIST_ARGUMENT_KEY
 import com.wsb.my2do.util.Constants.LIST_SCREEN
+import com.wsb.my2do.util.screens.list.ListScreen
 
 fun NavGraphBuilder.listComposable(
     navigateToTaskScreen: (Int) -> Unit
@@ -16,6 +17,6 @@ fun NavGraphBuilder.listComposable(
             type = NavType.StringType
         })
     ){
-
+        ListScreen(navigateToTaskScreen = navigateToTaskScreen)
     }
 }
